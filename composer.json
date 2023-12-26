@@ -1,0 +1,30 @@
+{
+    "name": "ivampiresp/laravel-es-logger",
+    "description": "Laravel log to elasticsearch",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ivampiresp\\LaravelElasticsearchLogger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ivamp",
+            "email": "im@ivampiresp.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ivampiresp\\LaravelElasticsearchLogger\\LaravelElasticsearchLoggerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {},
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
