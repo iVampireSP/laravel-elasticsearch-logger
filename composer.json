@@ -1,5 +1,5 @@
 {
-    "name": "ivampiresp/laravel-es-logger",
+    "name": "ivampiresp/laravel-elasticsearch-logger",
     "description": "Laravel log to elasticsearch",
     "type": "library",
     "license": "MIT",
